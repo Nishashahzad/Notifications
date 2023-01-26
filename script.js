@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
       element.id = "read";
       });
     });
+    
     markReadButton.addEventListener('click', () => {
         document.getElementById("numm").style.display = "none";
     })
